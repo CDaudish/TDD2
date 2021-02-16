@@ -3,4 +3,6 @@ def check_pwd(password):
     return False
   if len(password) > 20:
     return False
+  if password[0].islower() == False:
+    return False
   return True
