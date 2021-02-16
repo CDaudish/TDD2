@@ -13,3 +13,8 @@ class TestCase(unittest.TestCase):
 
     def test3(self):
         self.assertFalse(check_pwd("abc"))
+
+    def test4(self):
+        self.assertFalse(check_pwd("abcabcabcabcabcabcabcabc"))
+
+
