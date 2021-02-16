@@ -18,6 +18,6 @@ class TestCase(unittest.TestCase):
         self.assertFalse(check_pwd("abcabcabcabcabcabcabcabc"))
 
     def test5(self):
-        self.assertFalse(check_pwd("abcabcabcabcabcabcabca"))
+        self.assertFalse(check_pwd("abcabcabcabcabcabcabc"))
 
 
