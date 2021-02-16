@@ -10,3 +10,6 @@ class TestCase(unittest.TestCase):
 
     def test2(self):
         self.assertFalse(check_pwd("abcdefg"))
+
+    def test3(self):
+        self.assertFalse(check_pwd("abc"))
